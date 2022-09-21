@@ -14,7 +14,7 @@ public class PriorityQueueExample {
 		queue.add(b2);
 		queue.add(b3);
 
-		System.out.println(queue); // [Book [id=102, name=Book3] , Book [id=100, name=Book1] , Book [id=101,name=Book2] ]
+		System.out.println(queue); // [Book [id=102, name=Book3] , Book [id=101,name=Book2] ,Book [id=100, name=Book1]  ]
 		System.out.println(queue.peek()); // Book [id=102, name=Book3]
 		System.out.println(queue.remove()); // Book [id=102, name=Book3]
 		System.out.println(queue); // [Book [id=101, name=Book2] , Book [id=100, name=Book1] ]
